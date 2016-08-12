@@ -1,0 +1,3 @@
+relationship ManyToOne{
+	Customer{user} to User
+}

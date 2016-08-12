@@ -1,0 +1,11 @@
+/**
+* Represents the person/company who  buy
+* the actual good
+*/
+entity Customer {
+  legalName String required
+  birthDate LocalDate
+  vatid String
+  business Boolean required
+}
+
